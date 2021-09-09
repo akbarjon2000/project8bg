@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    font-family: sans-serif;
+    font-family: 'Nanum Myeongjo',
+        serif;
+}
+
+.base {
+    width: 900px;
+    height: 563px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.back {
+    width: 20px;
+    height: 20px;
+}
+
+.column1 {
+    width: 400px;
+    height: 563px;
+    display: flex;
+    align-self: flex-start;
+    background-image: url(/project8img/background.jpg);
+    background-size: cover;
+}
+
+.column2 {
+    width: 500px;
+    height: 563px;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-right: 5px;
+    font-family: sans-serif;
+}
+
+.nav-link {
+    color: rgb(126, 125, 125);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.spain {
+    color: black;
+}
+
+.backlink {
+    position: relative;
+    right: 500px;
+}
+
+h1 {
+    margin: 100px 50px 0 50px;
+    font-size: 50px;
+}
+
+.aaaaaa {
+    margin: 15px 50px 30px 50px;
+    font-size: 15px;
+    font-family: 'fantasy';
+    font-weight: 800;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.forward {
+    width: 15px;
+    height: 15px;
+}
+
+.play {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    border-radius: 50%;
+    background: rgb(240, 238, 238);
+    opacity: 0.8;
+
+}
+
+.preview {
+    width: 160px;
+    height: 100px;
+    background-image: url(/project8img/preview.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.bigtext {
+    margin-right: 50px;
+    height: 10px;
+    font-size: 15px;
+    width: 40%;
+    height: fit-content;
+}
+
+.viewall {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.viewall:hover {
+    cursor: pointer;
+}
+
+.preview:hover {
+    cursor: pointer;
+}
+.line{
+    border-bottom: 3px solid;
+    width: 80px;
+  
+    color: black;
+position: relative;
+top: -30px;
+left: 270px;
+}
